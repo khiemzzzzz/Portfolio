@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:bisque;
+}
+
+.menu{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #e9b24d;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.leftmenu{
+    margin-left: 15px;
+    font-size: large;
+    color: white;
+    padding-left: 75px;
+    font-size: 24px;
+}
+
+
+.rightmenu{
+    padding-left: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.home{
+    height: 400px;
+    text-align: center;
+    background-image: url(./Random/Hoian.jpg);
+    background-size: 1400px 600.9px;
+}
+h1{
+    padding-top: 190px;
+}
+
+.t{
+    padding-left: 75px;
+}
+
+.about{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border:  #000000 solid;
+    border-radius: 25px;
+    background-color: rgb(247, 234, 187);
+}
+
+.aboutpic{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.mepic{
+    border-radius: 500px;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.iconinfo{
+    display: flex;
+    padding-bottom: 30px;
+    
+}
+
+.iconinfo1{
+    display: flex;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    
+}
+
+.icon{
+    margin-right: 150px;
+    font-size: 50px;
+}
+
+.info1{
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.info{
+    margin-left: 15px;
+}
+
+.aboutme{
+    text-align: center;
+}
+
+.inttext{
+    text-align: center;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icontext{
+    background-color: rgb(247, 234, 187);
+    width: 25%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: #000000 solid;
+}
+
+.iconh{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+h3{
+    padding-bottom: 5px;
+}
+
+.pich{
+    padding: 20px;
+    height: min-content;
+   
+}
+
+.guitar{
+    height: 200px;
+    width: 250px;
+}
+
+.imgp{
+    max-width: 90%;
+    height: auto;
+    padding-top: 10px;
+}
+.mini-project{
+    
+    margin: 30px;
+    padding-top: 200px;
+    padding-left: 60px;
+}
+
+.mpd{
+    text-align: center;
+}
+
+
+.column1{
+    padding-top: 50px;
+}
+.column2{
+    padding-top: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    padding-bottom: 138px;
+}
+.footer{
+    border: #000000 solid;
+    background-color: #e8bc6b;
+}
+.fh{
+    text-align: center;
+}
+
+.fb{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border:  #000000 solid;
+    border-radius: 25px;
+    background-color: rgb(247, 234, 187);
+
+}
+
+.fleft{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.fright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.fri{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.friit{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.iconf{
+    padding-right: 10px;
+}
