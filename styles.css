@@ -6,6 +6,10 @@
 body{
     background-color:bisque;
 }
+a{
+    text-decoration: none;
+    color: #000000;
+}
 
 .menu{
     display: flex;
@@ -41,7 +45,10 @@ body{
     height: 400px;
     text-align: center;
     background-image: url(./Random/Hoian.jpg);
-    background-size: 1400px 600.9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 h1{
     padding-top: 190px;
@@ -184,6 +191,7 @@ h3{
 }
 .fh{
     text-align: center;
+    margin: 20px 20px ;
 }
 
 .fb{
@@ -227,4 +235,143 @@ input{
 
 .iconf{
     padding-right: 10px;
+}
+.hamburger {
+    display: none;
+}
+
+.rightmenu {
+    display: flex;
+}
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    .menu {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightmenu {
+        display: none; /* Initially hide the menu */
+        flex-direction: column;
+        background-color: #e9b24d;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        padding-right: 20px;
+        font-size: 24px;
+        color: white;
+        margin-left: auto;
+    }
+    .rightmenu.show {
+        display: flex; /* Show when the menu is toggled */
+        justify-content: center;
+    }
+
+    .rightmenu a {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icontext {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .leftmenu {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .rightmenu .t {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .home h1 {
+        font-size: 24px;
+        padding-top: 100px;
+    }
+
+    .aboutpic img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .iconh {
+        font-size: 30px;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Responsive Footer Styling */
+@media (max-width: 768px) {
+    .fb {
+        flex-direction: column; /* Stack form and contact sections */
+        padding: 20px;
+    }
+
+    .fleft, .fright {
+        width: 100%; /* Take full width in stacked layout */
+    }
+
+    .friit {
+        flex-wrap: wrap; /* Allow icons and text to wrap if needed */
+    }
+    input {
+        height: 40px; /* Larger clickable area for touch devices */
+        width: 400px;;
+    }
+}
+
+@media (max-width: 480px) {
+    .fh h2 {
+        font-size: 18px; /* Smaller font for small screens */
+    }
+
+    input {
+        height: 40px; /* Larger clickable area for touch devices */
+        width:200px;
+    }
+
+    .friit {
+        justify-content: flex-start; /* Align items to the left */
+    }
+
+    .iconf {
+        font-size: 16px; /* Adjust icon size */
+    }
+
+    .infof {
+        font-size: 14px; /* Adjust text size */
+    }
 }
